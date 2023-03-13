@@ -11,6 +11,6 @@ jobs:
     runs-on: macos-latest
     steps:
        - name: AOP Action
-         uses: aop-sanity-test/aop-action-repo-1@v1
+         uses: aop-sanity-test/aop-action-repo-19@v1
          with:
               milliseconds : 1
