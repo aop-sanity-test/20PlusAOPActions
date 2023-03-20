@@ -1,0 +1,13 @@
+name: One failing test
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: aop-sanity-test/aop-action-repo-22@1.0.1
+        with:
+          milliseconds : 1
