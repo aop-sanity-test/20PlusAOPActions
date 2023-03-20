@@ -8,6 +8,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: aop-sanity-test/aop-action-repo-22@1.0.1
+      - uses: aop-sanity-test/aop-action-repo-22@v1
         with:
           milliseconds : 1
